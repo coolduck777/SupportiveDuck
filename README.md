@@ -16,7 +16,7 @@ Service: Google sheet, Google Apps Script
 
 
 ## Author
-Cool duck  
+Cool Duck  
 ...And everyone who shouted out  
 
 ## License!!!
