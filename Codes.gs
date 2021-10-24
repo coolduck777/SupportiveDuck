@@ -1,3 +1,4 @@
+//Credential info are masked here  
 var CONSUMER_KEY = ''; // consumer key = API key
 var CONSUMER_SECRET = ''; //consumer secret = API secret key
 var TOKEN = ''; 
@@ -57,12 +58,13 @@ function authCallback(request) {
   var service = getService();
   var authorized = service.handleCallback(request);
   if (authorized) {
-    return HtmlService.createHtmlOutput('成功しました');
+    return HtmlService.createHtmlOutput('Success');
   } else {
-    return HtmlService.createHtmlOutput('失敗しました');
+    return HtmlService.createHtmlOutput('Failed');
   }
 }
 
+//Randomly choose one quote in a google sheet  
 function pickUpTweet() {
   var targetSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Form Responses 1"); 
   if (targetSheet.getLastRow() == 1) { return "" } // No data in a sheet

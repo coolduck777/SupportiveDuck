@@ -17,7 +17,7 @@ Language: Javascript
 Service: Google sheet, Google Apps Script  
 
 
-## Authors
+## Author
 
 Cool duck
 
