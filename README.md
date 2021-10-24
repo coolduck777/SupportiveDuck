@@ -17,7 +17,7 @@ Service: Google sheet, Google Apps Script
 
 ## Author
 Cool duck  
-And everyone who shouted out  
+...And everyone who shouted out  
 
 ## License!!!
 Feel free to use the code but don't forget to **FOLLOW** the supportive duck and add at least **5** shoutouts.  
