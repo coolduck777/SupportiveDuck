@@ -1,6 +1,6 @@
 var CONSUMER_KEY = ''; // consumer key = API key
 var CONSUMER_SECRET = ''; //consumer secret = API secret key
-var TOKEN = '';
+var TOKEN = ''; 
 var TOKEN_SECRET = '';
 
 function run() {
